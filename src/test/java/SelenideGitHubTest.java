@@ -19,8 +19,6 @@ public class SelenideGitHubTest {
         $(By.partialLinkText("Issues")).click();
 
         $(withText("#68")).shouldHave(visible);
-
-        sleep(5000);
     }
 
 }

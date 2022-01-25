@@ -18,8 +18,6 @@ public class SelenideGitHubWithListenerTest extends BaseTest{
         $(By.partialLinkText("Isues")).click();
 
         $(withText("#68")).shouldHave(visible);
-
-        sleep(5000);
     }
 
 }
